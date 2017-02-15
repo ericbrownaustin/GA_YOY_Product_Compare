@@ -16,8 +16,8 @@ profile <- "XXXXXXXX"
 
 
 ##Enter your start and end date here
-start.date = "2015-01-01"
-end.date = "2016-09-30"
+start.date = "yyyy-mm-dd"
+end.date = "yyyy-mm-dd"
 
 ##RGA script
 ga <- get_ga(profile, start.date, end.date, metrics = "ga:itemRevenue",
