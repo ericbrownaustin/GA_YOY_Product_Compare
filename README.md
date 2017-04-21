@@ -36,4 +36,4 @@ ggplot(ga, aes(monthname, itemRevenue, color = year, group = year)) + geom_line(
 scale_y_continuous(labels = comma)  +
   
 ##creates a facet for multiple graphs by productname and forces Y axis to independent scales  
-facet_wrap(~ productName, ncol=4, scales = "free_y")```
+facet_wrap(~ productName, ncol=4, scales = "free_y")
